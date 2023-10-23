@@ -1,0 +1,178 @@
+body {
+  background-image: url(asbackground.jpg);
+  background-size: cover;
+}
+nav{
+  background-color: #5E5756;
+  overflow: hidden;
+}
+nav a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+}
+.dropdown{
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px;
+border: white;
+outline: teal;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.dropdown-content a:hover{
+  background-color: turquoise;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: hsl(313, 86%, 19%);
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropbtn{
+  background-color: antiquewhite;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+body{
+  margin: 0;
+}
+
+.card {
+  width: 25px;
+  height: 150px;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: 3fr 3fr;
+  gap: 20px;
+  overflow: visible;
+  padding-top: 1.25em;
+  margin-left: 12.5em;
+ }
+ 
+ .card .item {
+  border-radius: 10px;
+  width: 450px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ .item:hover {
+  transform: scale(0.95);
+  transition: all 0.3s;
+ }
+ 
+ .item svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+ }
+ 
+ .item--1 {
+  background: hsl(240, 37%, 66%);
+ }
+ 
+ .item--2 {
+  background: hsl(23, 55%, 78%);
+ }
+ 
+ .item--3 {
+  background: #87cf9f;
+ }
+ 
+ .item--4 {
+  background: #d8a4c8;
+ }
+ 
+ .quantity {
+  font-size: 25px;
+  font-weight: 600;
+ }
+ 
+ .text {
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 600;
+ }
+ 
+ .text--1 {
+  color: rgb(64, 64, 218);
+ }
+ 
+ .text--2 {
+  color: rgb(207, 129, 52);
+ }
+ 
+ .text--3 {
+  color: hwb(141 4% 57%);
+ }
+ 
+ .text--4 {
+  color: #752460;
+ } 
+
+ button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all .5s ease;
+ }
+ 
+ button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+ }
+ 
+ button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+ }
+
+ @media (max-width:500px){
+  .card {
+  
+   
+    padding-top: 0.25em;
+    margin-left: 1.1em;
+   }
+   .item7{
+    position: relative;
+    top: 460px;
+    left: -475px;
+   }
+   nav a{
+    padding: 15px 5px;
+   }
+ }

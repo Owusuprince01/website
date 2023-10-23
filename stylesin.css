@@ -1,0 +1,75 @@
+body {
+    background-image: url(signup.webp);
+    background-size: cover;
+  }
+  
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type=text], input[type=email], input[type=password] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+input[type=submit]:hover{
+    background-color: hsl(34, 100%, 50%);
+}
+.error{
+    color: red;
+    margin-bottom: 10px;
+}
+  .input[value="premium"]:checked + .check::after {
+    background-color: rgba(0,128,0,0.7);
+  }
+  
+  .input[value="basic"]:checked {
+    border: 1.5px solid rgba(255,0,0,0.7);
+  }
+  
+  .input[value="standart"]:checked {
+    border: 1.5px solid rgba(255,165,0,0.7);
+  }
+  
+  .input[value="premium"]:checked {
+    border: 1.5px solid rgba(0,128,0,0.7);
+  }
+  
+  .label {
+    color: #323232;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .label .title {
+    margin: 15px 0 0 15px;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+  
+  .label .price {
+    margin: 20px 0 0 15px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .label .span {
+    color: gray;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  

@@ -1,0 +1,32 @@
+
+h1{
+    text-align: center;
+}
+#cont1{
+    height: 500px;
+    width: 400px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 190px;
+}
+.cont1{
+    position: relative;
+    left: 570px;
+    top: -543px;
+}
+.cont2{
+    position: relative;
+    top: -480px;
+}
+.cont3{
+    position: relative;
+    top: -1021px;
+    left: 570px;
+}
+img{
+    height: 400px;
+    width: 400px;
+    columns: #fff;
+    border-radius: 20px;
+}
